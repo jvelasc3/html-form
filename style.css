@@ -64,8 +64,8 @@ body {
   margin-bottom: 15px;
 }
 
-.data-form[type="text"]:invalid,
-.data-form[type="email"]:invalid {
+.data-form input[type="text"]:invalid,
+.data-form input[type="email"]:invalid {
   border: 1px solid #d55c5f;
   color: #d55c5f;
   box-shadow: none;

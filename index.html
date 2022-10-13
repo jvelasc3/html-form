@@ -19,7 +19,7 @@
     <form action="" method="get" class="container-form">
       <div class="data-form">
         <label for="name">Name:</label>
-        <input type="text" id="name" name="name" />
+        <input type="text" id="name" name="name" required />
       </div>
       <div class="data-form">
         <label for="email">Email</label>
@@ -28,6 +28,8 @@
           id="email"
           name="email"
           placeholder="name@example.com"
+          required
+          pattern="[A-Za-z0-9._+-]+@[A-Za-z0-9._+-]+\.[a-z]{2,}"
         />
       </div>
       <fieldset class="race-choices">
