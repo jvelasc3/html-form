@@ -71,6 +71,30 @@ body {
   box-shadow: none;
 }
 
+.race-choices {
+  border-style: none;
+  margin-bottom: 40px;
+}
+
+.race-choices legend {
+  margin-bottom: 15px;
+}
+
+.race-choices .radio-label {
+  display: block;
+  font-size: 14px;
+  padding: 0 20px 0 10px;
+}
+
+.race-choices input[type="radio"] {
+  margin-top: 2px;
+}
+
+.race-choices .radio-label,
+.race-choices input[type="radio"] {
+  float: left;
+}
+
 @media only screen and (min-width: 700px) {
   .header-form,
   .container-form {
@@ -96,5 +120,18 @@ body {
     width: 120px;
     margin-top: 7px;
     padding-right: 20px;
+  }
+  .race-choices {
+    margin-bottom: 10px;
+  }
+
+  .race-choices legend {
+    width: 120px;
+    text-align: right;
+    padding-right: 20px;
+  }
+
+  .race-choices legend {
+    float: left;
   }
 }
