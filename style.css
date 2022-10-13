@@ -31,3 +31,34 @@ body {
   font-size: 30px;
   margin-bottom: 15px;
 }
+
+.container-form {
+  border: 1px solid tan;
+  border-radius: 15px;
+  background-color: beige;
+
+  width: 80%;
+  margin: 0 0 40px 0;
+  padding: 50px;
+}
+
+.data-form {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  margin-bottom: 40px;
+}
+
+.data-form input[type="text"] {
+  background-color: #ffffff;
+  width: 100%;
+  border-radius: 5px;
+  border: 1px solid lightslategrey;
+  padding: 7px;
+  font-size: 14px;
+}
+
+.data-form label {
+  margin-bottom: 15px;
+}
