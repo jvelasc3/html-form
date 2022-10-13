@@ -62,3 +62,28 @@ body {
 .data-form label {
   margin-bottom: 15px;
 }
+
+@media only screen and (min-width: 700px) {
+  .header-form,
+  .container-form {
+    width: 600px;
+  }
+
+  .data-form {
+    flex-direction: row;
+    align-items: flex-start;
+    margin-bottom: 20px;
+  }
+
+  .data-form input[type="text"] {
+    width: 250px;
+    height: initial;
+  }
+
+  .data-form label {
+    text-align: right;
+    width: 120px;
+    margin-top: 7px;
+    padding-right: 20px;
+  }
+}
