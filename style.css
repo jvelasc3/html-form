@@ -95,6 +95,13 @@ body {
   float: left;
 }
 
+.data-form select {
+  width: 100%;
+  padding: 5px;
+  font-size: 14px;
+  -webkit-appearance: menulist;
+}
+
 @media only screen and (min-width: 700px) {
   .header-form,
   .container-form {
@@ -133,5 +140,9 @@ body {
 
   .race-choices legend {
     float: left;
+  }
+
+  .data-form select {
+    margin-top: 10px;
   }
 }
