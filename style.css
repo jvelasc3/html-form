@@ -124,6 +124,28 @@ body {
   margin-bottom: 0;
 }
 
+.data-form button {
+  font-size: 16px;
+  font-weight: bold;
+
+  color: #ffffff;
+  background-color: #5995da;
+
+  border: none;
+  border-radius: 3px;
+
+  padding: 10px 40px;
+  cursor: pointer;
+}
+
+.data-form button:hover {
+  background-color: #76aeed;
+}
+
+.data-form button:active {
+  background-color: #407fc7;
+}
+
 @media only screen and (min-width: 700px) {
   .header-form,
   .container-form {
@@ -176,5 +198,10 @@ body {
   .data-form .checkbox-label {
     margin-left: 120px;
     width: 280px;
+  }
+
+  .data-form button {
+    margin-top: 20px;
+    margin-left: 120px;
   }
 }
